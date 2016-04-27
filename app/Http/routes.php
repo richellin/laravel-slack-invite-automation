@@ -12,6 +12,9 @@
 */
 
 Route::group(['middleware' => 'web'], function() {
+    Route::get('/', function(){
+        return redirect('invitation/slack');
+    });
     Route::get('invitation/{channel}', 'InvitationsController@index');
     Route::post('invitation/{channel}', 'InvitationsController@send');
 });
