@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "richellin/php-chat-invite-automation": "0.0.1"
+        "richellin/php-chat-invite-automation": "0.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
