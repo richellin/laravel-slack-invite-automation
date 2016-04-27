@@ -15,6 +15,7 @@ cd laravel-slack-invite-automation
 
 #Laravel Setting
 composer install
+cp .env.example .env
 php artisan key:generate
 
 #Edit .env
