@@ -17,6 +17,7 @@ cd laravel-slack-invite-automation
 composer install
 cp .env.example .env
 php artisan key:generate
+chmod -R 777 storage;
 
 #Edit .env
 vi .env
