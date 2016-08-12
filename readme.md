@@ -14,7 +14,7 @@ git clone https://github.com/richellin/laravel-slack-invite-automation.git
 cd laravel-slack-invite-automation
 
 #Laravel Setting
-composer install
+composer update
 cp .env.example .env
 php artisan key:generate
 chmod -R 777 storage;
